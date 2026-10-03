@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "045b0280c5242975",
+    "type": "split",
+    "children": [
+      {
+        "id": "80013fb4b48f57b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8776652dd57bb42d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "n次方根.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "n次方根"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3867e9884c8de61",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff9909af345d12ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71276df9dba435a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0c32151c7ca48602",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9d5441f184460a2f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.66668701171875
+  },
+  "right": {
+    "id": "24211358e7b9decf",
+    "type": "split",
+    "children": [
+      {
+        "id": "2151e9746977b832",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06fc49334e5666c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cybernetics/notes/wiki/时间序列/自相关函数.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "184b2086e6b0c084",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "659f68752ab7d13f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8532bb044bf405a2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "ecc43237de2b4c7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "n次方根.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "8776652dd57bb42d",
+  "lastOpenFiles": [
+    "极形式.md",
+    "复数.md",
+    "MOC.md",
+    "AMA2111 Lecture 01 复数.md",
+    "AMA2111 L01 练习.md",
+    "n次方根.md",
+    "De Moivre 定理.md",
+    "模.md",
+    "复平面.md",
+    "Math/Attachments/AMA2111-L01-ComplexNumbers.pdf",
+    "Math/Attachments",
+    "Math/AMA2111 L01 练习.md",
+    "Math/AMA2111 L01 练习.md.tmp.1458.78e0bac66fb2",
+    "Math/n次方根.md",
+    "Math/n次方根.md.tmp.1458.c3148738f06b",
+    "Math/De Moivre 定理.md",
+    "Math/De Moivre 定理.md.tmp.1458.f4044b02f978",
+    "Math/复指数函数.md",
+    "Math/复指数函数.md.tmp.1458.033f04639bf3",
+    "Math/极形式.md",
+    "Math/极形式.md.tmp.1458.ea84528b4c29",
+    "Math/模.md",
+    "Math/模.md.tmp.1458.5ec3ca02790a",
+    "Math/共轭.md",
+    "Math/共轭.md.tmp.1458.4f4728f2b2da",
+    "Math/复平面.md",
+    "Math/复数.md",
+    "Math/AMA2111 Lecture 01 复数.md",
+    "Math/AMA2111 Lecture 01 复数.md.tmp.1458.349c2daf786a",
+    "Math/MOC.md",
+    "Computer_Vision/pytorch/ReLU.md",
+    "Computer_Vision/pytorch/Dataset 与 DataLoader.md",
+    "Computer_Vision/pytorch/Tensor 基础.md",
+    "Computer_Vision/pytorch/PyTorch 学习路线.md",
+    "Computer_Vision/pytorch/Sigmoid.md",
+    "Computer_Vision/pytorch/归一化与标准化.md",
+    "未命名.canvas"
+  ]
+}
