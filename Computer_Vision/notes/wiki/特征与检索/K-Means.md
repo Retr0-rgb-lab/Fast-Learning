@@ -42,6 +42,10 @@ source: "[L5-Lecture-Image.Retrieval-v4.6.pdf](<../../raw/L5-Lecture-Image.Retri
 > [!warning] 第 3 步的产物不叫"分类图"，叫**簇分配**
 > K-Means 是无监督学习，簇编号本身**没有**预先给定的类别语义。cluster 3 就是 cluster 3，不等于"猫"。
 
+> ![[KMeans分配更新迭代.jpg]]
+>
+> 两轮迭代的四个状态。③ 里橙色箭头就是「更新中心」，它指向的位置正是下一节要证明的**簇内均值**。
+
 ## 为什么更新中心要取均值
 
 因为**均值让簇内平方误差和最小**。记 $\mathcal{C}_1,\dots,\mathcal{C}_K$ 为 $K$ 个簇（花体是"样本集合"），$\boldsymbol{\mu}_k$ 为第 $k$ 个簇的中心。固定簇归属时，目标函数是
