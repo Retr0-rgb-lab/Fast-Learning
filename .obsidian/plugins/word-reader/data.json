@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "common": {
+    "language": "zh-CN",
+    "defaultZoomPercent": 100,
+    "largeFileWarningMb": 25
+  },
+  "docx": {
+    "defaultFitWidth": false,
+    "showOutlineByDefault": true,
+    "enableImagePreview": true
+  },
+  "pptx": {
+    "defaultFitWindow": true,
+    "showNavigationByDefault": true,
+    "showNotesByDefault": false
+  },
+  "xlsx": {
+    "defaultFitWidth": true
+  },
+  "readingStates": [
+    {
+      "path": "Web_Development/notes/raw/Lecture_02_HTML.pptx",
+      "mtime": 1791083133882,
+      "format": "pptx",
+      "lastAccessed": 1,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0,
+        "page": 2
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": true
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": [],
+        "notesVisible": false
+      }
+    }
+  ]
+}
