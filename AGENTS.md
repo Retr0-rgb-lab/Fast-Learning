@@ -40,7 +40,8 @@
 
 新写的域一律放 `notes/wiki/index.md`（MOC 索引）和 `notes/wiki/log.md`（沉淀日志）。
 
-> **已知偏差**（不要顺手改）：`Software_Engineering/`、`Logic/` 的 index/log 在**域根目录**；`Math/` 用的是 `MOC.md` 且完全扁平、没有 `notes/` 分层；`Cybernetics/materials/` 存着 PDF 而 `notes/raw/` 里是一个 `.md`，与约定相反。
+> **已知偏差**（不要顺手改）：`Software_Engineering/`、`Logic/`、`Math/`、`Web_Development/` 的 index/log 在**域根目录**而非 `notes/wiki/` 内；`Math/` 用的是 `MOC.md` 且完全扁平、没有 `notes/` 分层；`Cybernetics/materials/` 存着 PDF 而 `notes/raw/` 里是一个 `.md`，与约定相反。
+> 已完全遵循的域：`Computer_Vision/`、`Cybernetics/`、`HCI/`、`System_Programming/`。
 
 ---
 
@@ -127,8 +128,10 @@ python3 <Domain>/tools/<domain>_lint.py     # 默认 wiki 根 = 脚本同级 not
 | 歧义 basename | 同名多文件，链接会解析歧义 |
 | alias 遮蔽真实页 | alias 撞上别的真实文件名，该 alias 永不生效 |
 
-> **两个 linter 已分叉**：`Computer_Vision/tools/cv_lint.py` 与 `HCI/tools/hci_lint.py` 是同一工具的两个 fork，**HCI 版更新**（多了 alias 遮蔽检测和域内/跨域链接计数）。**CV 版的 docstring 仍写着"别名优先"，那是错的**（真实 Obsidian 是文件名优先）—— 它只是代码修对了、注释没改。
-> **给新域建 linter 时复制 HCI 版**，只改默认路径。理想状态是合并成一份共享脚本，目前还没有。
+> **同一工具已有三份副本，取用时看清版本**：`Computer_Vision/tools/cv_lint.py`、`HCI/tools/hci_lint.py`、`System_Programming/tools/sp_lint.py`。
+> **目前 `cv_lint.py` 最全**（含 alias 遮蔽检测、表格 `\|` 转义处理、跳过代码块、跨域链接计数）—— `sp_lint.py` 就是从它复制的。**给新域建 linter 时复制 `cv_lint.py`**，只改文件名与默认路径。
+> ⚠️ **`hci_lint.py` 的 docstring 仍写着"别名优先"，那是错的**（真实 Obsidian 是文件名优先）—— 它只是代码修对了、注释没改。
+> 理想状态是合并成一份共享脚本，目前还没有。
 
 **结构改动后必须重跑并对比数字**：断链和孤儿数应当下降。另外注意 linter 会**跳过代码块和行内代码**（Python 的 `[[2.0, 1.0]]` 这类嵌套列表不是 wikilink）。
 

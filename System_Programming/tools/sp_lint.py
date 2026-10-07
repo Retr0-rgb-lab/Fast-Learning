@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Computer_Vision wiki 链接检查器。
+"""System_Programming wiki 链接检查器。
 
 按 llm-wiki-ingest 协议实现：
   - 别名优先、其次 basename、再其次 路径前缀 basename（subroutine #4）
   - 统计断链（unresolved）与孤儿页（no inbound）
   - 统计有歧义的 basename（多文件同名）
 
-用法: python3 cv_lint.py [wiki_root]
+用法: python3 sp_lint.py [wiki_root]
 """
 import pathlib, re, sys, collections
 import yaml

@@ -155,6 +155,8 @@ $$
 - **对照**:[[交叉熵与信息熵]] — 同一公式的信息论解读(香农熵、KL 散度)
 - **类比**:[[线性回归 解析解与最大似然]] — 回归侧的 MLE → MSE 同源故事
 
+- **本篇的概率视角**：[[../图像分类/贝叶斯分类器|贝叶斯分类器]] — 同一个后验 $P(y\mid\mathbf{x})$，贝叶斯用**训练集频次比**估，本篇用**可学习权重**
+
 ## 参考
 
 - [d2l softmax-regression](https://zh.d2l.ai/chapter_linear-networks/softmax-regression.html)

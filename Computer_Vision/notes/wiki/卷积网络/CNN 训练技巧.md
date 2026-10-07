@@ -128,6 +128,8 @@ self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)   # 加 padding 控尺
 - **模式**：[[model.train 与 model.eval]] — BN/Dropout 在 eval 下要切换
 - **优化器**：[[SGD 与优化器]] — SGD vs Adam 选择
 
+- **划分依据**：[[../图像分类/监督学习与数据集划分|监督学习与数据集划分]] — 训练集/验证集/测试集的分工，本篇讲的过拟合正是验证集要防的东西
+
 ## 参考
 
 - [PyTorch CIFAR-10 教程](https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
