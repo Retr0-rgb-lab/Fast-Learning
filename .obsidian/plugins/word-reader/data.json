@@ -38,6 +38,66 @@
         "collapsedIds": [],
         "notesVisible": false
       }
+    },
+    {
+      "path": "Web_Development/notes/raw/Lecture_01_Overview.pptx",
+      "mtime": 1791083133891,
+      "format": "pptx",
+      "lastAccessed": 8,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0,
+        "page": 5
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": true
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": [],
+        "notesVisible": false
+      }
+    },
+    {
+      "path": "Web_Development/notes/raw/Tutorial_01_ColorTheory.pptx",
+      "mtime": 1791083133916,
+      "format": "pptx",
+      "lastAccessed": 9,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0,
+        "page": 1
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": true
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": [],
+        "notesVisible": false
+      }
+    },
+    {
+      "path": "Web_Development/notes/raw/Lecture_05_CSS.pptx",
+      "mtime": 1791083133925,
+      "format": "pptx",
+      "lastAccessed": 73,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0,
+        "page": 12
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": true
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": [],
+        "notesVisible": false
+      }
     }
   ]
 }

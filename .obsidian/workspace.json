@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e05709bcfc8000c4",
+        "id": "53e4c2444bc6d8b6",
         "type": "tabs",
         "children": [
           {
-            "id": "0f75ac8ad27469c7",
+            "id": "c606980f73c85682",
             "type": "leaf",
             "state": {
-              "type": "pptx-reader-view",
-              "state": {
-                "file": "Web_Development/notes/raw/Lecture_02_HTML.pptx"
-              },
-              "icon": "presentation",
-              "title": "Lecture_02_HTML.pptx"
-            }
-          },
-          {
-            "id": "42a9b0cf0f6538f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web_Development/notes/wiki/HTML标记/容器与语义化.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "容器与语义化"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.66668701171875
+    "width": 234.33334350585938
   },
   "right": {
     "id": "24211358e7b9decf",
@@ -112,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybernetics/notes/wiki/时间序列/自相关函数.md",
+                "file": "Web_Development/notes/wiki/动效与其他CSS/变换transform.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -173,8 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web_Development/notes/wiki/HTML标记/容器与语义化.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -200,44 +182,45 @@
       "bases:新建数据库": false
     }
   },
-  "active": "42a9b0cf0f6538f9",
+  "active": "ecc43237de2b4c7f",
   "lastOpenFiles": [
-    "Web_Development/notes/wiki/HTML标记/媒体元素.md",
-    "Web_Development/notes/raw/Lecture_02_HTML.pptx",
-    "Web_Development/notes/wiki/HTML标记/DOM与开发者工具.md",
-    "Web_Development/notes/wiki/布局与定位/层叠顺序与z-index.md",
-    "Math/notes/wiki/特征值与对角化/对角化的应用.md",
-    "Math/notes/wiki/矩阵/逆矩阵.md",
-    "Math/notes/wiki/矩阵/特殊矩阵.md",
-    "Math/notes/wiki/常微分方程/二阶常系数非齐次方程.md",
-    "Math/index.md",
-    "Computer_Vision/notes/wiki/神经网络基础/块、层与参数：nn.Module 体系.md",
-    "Math/log.md",
-    "Math/notes/wiki/线性方程组/高斯若尔当法与齐次方程组.md",
-    "Math/notes/wiki/线性方程组/高斯消去法.md",
-    "Math/notes/wiki/线性方程组/阶梯形与最简阶梯形.md",
-    "Math/notes/wiki/线性方程组/线性方程组与增广矩阵.md",
-    "Math/notes/wiki/内积与正交性/Gram-Schmidt与正交矩阵.md",
-    "Math/notes/wiki/矩阵/转置.md",
-    "Math/notes/wiki/矩阵/矩阵运算.md",
-    "Math/notes/wiki/矩阵/矩阵与向量.md",
-    "Math/notes/wiki/常微分方程/拉普拉斯变换的应用.md",
-    "Math/notes/wiki/内积与正交性/正交性.md",
-    "Math/notes/wiki/内积与正交性/内积与范数.md",
-    "Math/notes/wiki/常微分方程/拉普拉斯变换.md",
-    "Math/notes/wiki/特征值与对角化/对角化.md",
-    "Math/notes/wiki/特征值与对角化/特征值与特征向量.md",
-    "Math/notes/wiki/行列式/行列式的性质.md",
-    "Math/notes/wiki/常微分方程/二阶常系数齐次方程.md",
-    "Math/notes/wiki/常微分方程",
-    "Math/notes/wiki/内积与正交性",
-    "Math/notes/wiki/特征值与对角化",
-    "Math/notes/wiki/行列式",
-    "Math/notes/wiki/向量空间",
-    "Math/notes/wiki/线性方程组",
-    "Math/notes/wiki/矩阵",
-    "Math/notes/wiki/复数",
-    "Math/notes/raw/AMA2111-L01-ComplexNumbers.pdf",
+    "System_Programming/notes/wiki/log.md",
+    "System_Programming/notes/wiki/重定向与管道/管道与进程间通信.md",
+    "System_Programming/notes/wiki/重定向与管道/I O 重定向与 dup.md",
+    "System_Programming/notes/wiki/文件描述符与流/FILE 流与格式化输入输出.md",
+    "System_Programming/notes/wiki/文件描述符与流/open read write close.md",
+    "System_Programming/notes/wiki/文件描述符与流/文件描述符与 SFT.md",
+    "System_Programming/notes/wiki/inode 与链接/名称解析与文件大小上限.md",
+    "System_Programming/notes/wiki/inode 与链接/硬链接与符号链接.md",
+    "System_Programming/notes/wiki/inode 与链接/inode 与目录文件.md",
+    "System_Programming/notes/wiki/文件系统结构/当前工作目录.md",
+    "System_Programming/notes/wiki/文件系统结构/层次结构与路径名.md",
+    "System_Programming/notes/wiki/文件系统结构/权限位与 ls -l.md",
+    "System_Programming/notes/wiki/文件系统结构/文件类型.md",
+    "System_Programming/notes/wiki/进程管理/后台进程与守护进程.md",
+    "System_Programming/notes/wiki/进程管理/进程终止.md",
+    "System_Programming/notes/wiki/进程管理/exec 替换进程映像.md",
+    "System_Programming/notes/wiki/进程管理/wait 等待子进程.md",
+    "System_Programming/notes/wiki/进程管理/fork 创建进程.md",
+    "System_Programming/notes/wiki/进程管理/进程标识与查看.md",
+    "System_Programming/notes/wiki/进程与线程/进程映像与线程.md",
+    "System_Programming/notes/wiki/进程与线程/进程是什么.md",
+    "System_Programming/notes/wiki/Unix 总览/Unix 家族与变体.md",
+    "System_Programming/notes/wiki/Unix 总览/Unix 的特性.md",
+    "System_Programming/notes/wiki/Unix 总览/Unix 哲学与工具组合.md",
+    "System_Programming/notes/wiki/Unix 总览/Unix 组成结构.md",
+    "System_Programming/notes/wiki/Unix 总览/Unix 是什么与由来.md",
+    "System_Programming/tools/sp_lint.py",
+    "System_Programming/tools",
+    "System_Programming/notes/wiki/重定向与管道",
+    "System_Programming/notes/wiki/文件描述符与流",
+    "System_Programming/notes/wiki/inode 与链接",
+    "System_Programming/notes/wiki/文件系统结构",
+    "System_Programming/notes/wiki/进程管理",
+    "System_Programming/notes/wiki/进程与线程",
+    "System_Programming/notes/wiki/Unix 总览",
+    "System_Programming/notes/wiki/assets/目录、硬链接、inode 与数据块关系图.jpg",
+    "System_Programming/notes/wiki/assets",
     "Computer_Vision/notes/wiki/assets/generated-image (5).jpg",
     "Computer_Vision/notes/wiki/assets/BoVW视觉词袋三步管线.jpg",
     "Computer_Vision/notes/wiki/assets/BGD-SGD-MiniBatch参数空间轨迹.jpg",
@@ -247,7 +230,6 @@
     "Computer_Vision/notes/wiki/assets/SIFT尺度空间与DoG极值检测.jpg",
     "Computer_Vision/notes/wiki/assets/generated-image (4).jpg",
     "Computer_Vision/notes/wiki/assets/generated-image (3).jpg",
-    "Computer_Vision/notes/wiki/assets/generated-image (2).jpg",
     "未命名.canvas"
   ]
 }
