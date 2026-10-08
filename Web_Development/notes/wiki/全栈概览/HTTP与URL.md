@@ -1,5 +1,6 @@
 ---
 tags: [WD, 全栈概览, HTTP, URL, 状态码]
+domain: [Web 应用开发, Web 全栈]
 course: COMP3421
 lecture: L01
 ---
